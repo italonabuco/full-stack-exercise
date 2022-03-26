@@ -20,17 +20,19 @@ TeamMember.init(
         },
         title: {
             type: Sequelize.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         story: {
             type: Sequelize.STRING,
-            allowNull: false,
+            allowNull: true,
         },
         favoriteColor: {
             type: Sequelize.STRING,
+            allowNull: true,
         },
         photoUrl: {
             type: Sequelize.STRING,
+            allowNull: true,
         },
     },
     {
